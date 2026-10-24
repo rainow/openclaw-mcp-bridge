@@ -1,0 +1,38 @@
+{
+  "defaultAgent": "main",
+  "allowedAgents": ["main", "coder"],
+  "disabledAgents": [],
+  "aliases": {
+    "助手": "main",
+    "main": "main",
+    "coder": "coder"
+  },
+  "execRisk": {
+    "main": "allow",
+    "coder": "allow"
+  },
+  "session": {
+    "suffix": "glasses",
+    "maxKeyLength": 200
+  },
+  "rateLimit": {
+    "perMinute": 6,
+    "perHour": 60
+  },
+  "voice": {
+    "maxSpeakChars": 150,
+    "summaryThreshold": 400
+  },
+  "run": {
+    "defaultWaitSeconds": 20,
+    "maxWaitSeconds": 120,
+    "cliTimeoutMs": 30000,
+    "rpcTimeoutMs": 15000
+  },
+  "dedupe": {
+    "windowSeconds": 5
+  },
+  "audit": {
+    "dir": "~/Library/Application Support/openclaw-mcp-bridge"
+  }
+}
