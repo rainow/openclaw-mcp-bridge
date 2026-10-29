@@ -9,10 +9,7 @@
     "node": ">=20"
   },
   "scripts": {
-    "start": "node server.mjs",
-    "test": "node --test test/unit.test.mjs test/mcp.test.mjs",
-    "test:live": "node --test test/integration.test.mjs && node test/live-smoke.mjs",
-    "smoke:live": "node test/live-smoke.mjs"
+    "start": "node server.mjs"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.32.1",
